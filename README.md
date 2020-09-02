@@ -3,10 +3,13 @@
 - HTML5;
 - CSS3;
 - JavaScript;
+- CSS reset by [Normalize.css](https://necolas.github.io/normalize.css/);
+- Fonts by [Font Awesome](https://fontawesome.com/);
+- Hospeded with [GitHub Pages](https://pages.github.com/);
 
-Hospeded with [GitHub Pages](https://pages.github.com/).
+The design was based on [Rocketseat Website](https://app.rocketseat.com.br)
 
-The design was based on [Rocketseat Website](https://app.rocketseat.com.br).
+Want contribute with anything? Open an [issue](https://github.com/christyanbrayan/to-do/issues/new) or [PR](https://github.com/christyanbrayan/to-do/pulls)!
 
 ---
 
