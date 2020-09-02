@@ -3,20 +3,43 @@
 <head>
 	<meta charset="UTF-8">
 	<title> To-Do </title>
+	<link rel="stylesheet" href="./normalize.css">
+	<script src="https://kit.fontawesome.com/29e155d20f.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="./main.css">
 </head>
 <body>
+
 	<div id="app">
-		<h1> To-Do </h1>
-		<ul>
-			
-		</ul>
-		<input type="text" placeholder="Type anything">
-		<button> Add </button>
+		<div id="box">
+			<h1>
+				To-<span id="title">Do</span>
+			</h1>
+
+			<ul></ul>
+
+			<div id="form">
+				<input type="text" placeholder="Type anything">
+
+				<button>
+					<i class="fas fa-plus"></i>
+					Add
+				</button>
+			</div>
+		</div>
 	</div>
+
+	<footer>
+		<p>
+			Developed by
+			<strong>
+				<a href="https://github.com/christyanbrayan" target="_blank">
+					Christyan Brayan
+				</a>
+			</strong>
+		</p>
+	</footer>
+
 	<script src="script.js"></script>
-	<p>
-		Developed by Christyan Brayan
-	</p>
+
 </body>
 </html>

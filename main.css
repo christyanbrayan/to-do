@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap');
+
+* {
+	color: #87868B;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background-color: #121214;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	background-color: #202024;
+	list-style: none;
+	text-align: center;
+}
+
+ul li a {
+	background-color: #202024;
+}
+
+#app {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-around;
+/*
+	display: flex;
+	justify-content: space-around;
+	width: 500px;
+	margin: 0 auto;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+*/
+
+}
+
+#app #box {
+	background-color: #202024;
+	padding: 10px;
+/*
+	background-color: #202024;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 50px;
+*/
+
+}
+
+#app #box h1 {
+	text-align: center;
+	font-size: 36pt;
+	color: #866AE5;
+	background-color: #202024;
+}
+
+#app #title {
+	background-color: #866AE5;
+	color: #FFFFFF;
+	padding: 0 5px;
+	margin: 0;
+	border-radius: 5px;
+}
+
+#app #box #form {
+	display: flex;
+	margin-bottom: 5px;
+	flex-direction: column;
+}
+
+#form input {
+	padding: 5px;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+#form button {
+	border: 0;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #866AE5;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+#form button i {
+	color: #FFFFFF;
+	font-weight: 700;
+}
+
+footer {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+footer p {
+	position: absolute;
+	bottom: 0;
+	color: #E1E1E6;
+	text-align: center;
+}
