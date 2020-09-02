@@ -18,8 +18,8 @@ function renderToDos() {
 		var pos = toDos.indexOf(toDo);
 		linkElement.setAttribute('onclick', 'deleteToDo(' + pos + ')');
 		
-		var linkText = document.createTextNode('Delete');
-		
+		var linkText = document.createTextNode(' Delete');
+
 		linkElement.appendChild(linkText);
 		
 		toDoElement.appendChild(toDoText);
@@ -38,6 +38,9 @@ function addToDo() {
 	inputElement.value = '';
 	renderToDos();
 	saveToStorage();
+
+	inputElement.value = '';
+	inputElement.focus();
 }
 
 buttonElement.onclick = addToDo;
