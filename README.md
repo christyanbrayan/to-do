@@ -9,7 +9,10 @@
 
 The design was based on [Rocketseat Website](https://app.rocketseat.com.br)
 
-Want contribute with anything? Open an [issue](https://github.com/christyanbrayan/to-do/issues/new) or [PR](https://github.com/christyanbrayan/to-do/pulls)!
+### Contributors
+- [@flubyGit](https://github.com/flubyGit)
+
+Also want contribute with anything? Open an [issue](https://github.com/christyanbrayan/to-do/issues/new) or [PR](https://github.com/christyanbrayan/to-do/pulls)!
 
 ---
 
