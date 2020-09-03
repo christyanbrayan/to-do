@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br" dir="ltr">
 <head>
 	<meta charset="UTF-8">
 	<title> To-Do </title>
-	<link rel="stylesheet" href="./normalize.css">
 	<script src="https://kit.fontawesome.com/29e155d20f.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="./normalize.css">
+	<link rel="stylesheet" href="./variables.css">
 	<link rel="stylesheet" href="./main.css">
 </head>
 <body>
 
-	<div id="app">
+	<main id="app">
 		<div id="box">
 			<h1>
 				To-<span id="title">Do</span>
@@ -17,16 +18,16 @@
 
 			<ul></ul>
 
-			<div id="form">
-				<input type="text" placeholder="Type anything">
+			<form id="form">
+				<input type="text" placeholder="Type anything" id="todo" name="todo">
 
 				<button>
 					<i class="fas fa-plus"></i>
 					Add
 				</button>
-			</div>
+			</form>
 		</div>
-	</div>
+	</main>
 
 	<footer>
 		<p>
