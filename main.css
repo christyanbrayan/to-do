@@ -1,12 +1,13 @@
+@charset 'utf-8';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap');
 
 * {
-	color: #87868B;
+	color:var(--color);
 	font-family: 'Roboto', sans-serif;
 }
 
 body {
-	background-color: #121214;
+	background-color: var(--body);
 }
 
 a {
@@ -14,13 +15,13 @@ a {
 }
 
 ul {
-	background-color: #202024;
+	background-color: var(--title);
 	list-style: none;
 	text-align: center;
 }
 
 ul li a {
-	background-color: #202024;
+	background-color: var(--title);
 }
 
 #app {
@@ -42,10 +43,10 @@ ul li a {
 }
 
 #app #box {
-	background-color: #202024;
+	background-color: var(--title);
 	padding: 10px;
 /*
-	background-color: #202024;
+	background-color: var(--title);
 
 	display: flex;
 	flex-direction: column;
@@ -60,12 +61,12 @@ ul li a {
 	text-align: center;
 	font-size: 36pt;
 	color: #866AE5;
-	background-color: #202024;
+	background-color: var(--title);
 }
 
 #app #title {
-	background-color: #866AE5;
-	color: #FFFFFF;
+	background-color: var(--blue);
+	color: var(--white);
 	padding: 0 5px;
 	margin: 0;
 	border-radius: 5px;
@@ -88,13 +89,13 @@ ul li a {
 	border-radius: 5px;
 	padding: 5px;
 	background-color: #866AE5;
-	color: #FFFFFF;
+	color: var(--white);
 	text-transform: uppercase;
 	font-weight: 700;
 }
 
 #form button i {
-	color: #FFFFFF;
+	color: var(--white);
 	font-weight: 700;
 }
 
@@ -108,6 +109,6 @@ footer {
 footer p {
 	position: absolute;
 	bottom: 0;
-	color: #E1E1E6;
+	color: var(--paragraph);
 	text-align: center;
 }
