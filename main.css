@@ -2,33 +2,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap');
 
 * {
-	color:var(--color);
-	font-family: 'Roboto', sans-serif;
+  color: var(--color);
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
 }
 
-body {
-	background-color: var(--body);
+body,
+html {
+  background-color: var(--body);
 }
 
 a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 ul {
-	background-color: var(--title);
-	list-style: none;
-	text-align: center;
+  background-color: var(--title);
+  list-style: none;
+  text-align: center;
 }
 
 ul li a {
-	background-color: var(--title);
+  background-color: var(--title);
 }
 
 #app {
-	margin-top: 10px;
-	display: flex;
-	justify-content: space-around;
-/*
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+
+  /*
 	display: flex;
 	justify-content: space-around;
 	width: 500px;
@@ -39,13 +42,16 @@ ul li a {
 	justify-content: center;
 	align-items: center;
 */
-
 }
 
 #app #box {
-	background-color: var(--title);
-	padding: 10px;
-/*
+  background-color: var(--title);
+  padding: 25px;
+  border-radius: 5px;
+  max-width: 600px;
+  margin: 25px 25px 50px;
+  z-index: 2;
+  /*
 	background-color: var(--title);
 
 	display: flex;
@@ -54,61 +60,86 @@ ul li a {
 	align-items: center;
 	padding-bottom: 50px;
 */
+}
 
+#app-list li {
+  line-height: 1.7;
+}
+
+#app-list li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+#app-list li a {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--blue);
+  margin-left: 7px;
 }
 
 #app #box h1 {
-	text-align: center;
-	font-size: 36pt;
-	color: #866AE5;
-	background-color: var(--title);
+  text-align: center;
+  font-size: 36pt;
+  color: #866ae5;
+  background-color: var(--title);
 }
 
 #app #title {
-	background-color: var(--blue);
-	color: var(--white);
-	padding: 0 5px;
-	margin: 0;
-	border-radius: 5px;
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 0 5px;
+  margin: 0;
+  border-radius: 5px;
 }
 
 #app #box #form {
-	display: flex;
-	margin-bottom: 5px;
-	flex-direction: column;
+  display: flex;
+  margin-bottom: 5px;
+  flex-direction: column;
+}
+
+#form input,
+#form button {
+  margin: 0 auto;
+  padding: 10px;
+  width: 200px;
+  border: none;
+  outline: none;
+  text-align: center;
 }
 
 #form input {
-	padding: 5px;
-	text-align: center;
-	margin-bottom: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 200px;
 }
 
 #form button {
-	border: 0;
-	border-radius: 5px;
-	padding: 5px;
-	background-color: #866AE5;
-	color: var(--white);
-	text-transform: uppercase;
-	font-weight: 700;
+  border-radius: 5px;
+  background-color: #866ae5;
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 #form button i {
-	color: var(--white);
-	font-weight: 700;
+  color: var(--white);
+  font-weight: 700;
+  margin-right: 5px;
 }
 
 footer {
-	width: 100%;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
 }
 
 footer p {
-	position: absolute;
-	bottom: 0;
-	color: var(--paragraph);
-	text-align: center;
+  color: var(--paragraph);
+  text-align: center;
 }

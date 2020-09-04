@@ -1,46 +1,39 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-	<meta charset="UTF-8">
-	<title> To-Do </title>
-	<script src="https://kit.fontawesome.com/29e155d20f.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="./normalize.css">
-	<link rel="stylesheet" href="./variables.css">
-	<link rel="stylesheet" href="./main.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>To-Do</title>
+    <script src="https://kit.fontawesome.com/29e155d20f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./variables.css" />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <main id="app">
+      <div id="box">
+        <h1>To-<span id="title">Do</span></h1>
 
-	<main id="app">
-		<div id="box">
-			<h1>
-				To-<span id="title">Do</span>
-			</h1>
+        <ul id="app-list"></ul>
 
-			<ul></ul>
+        <form id="form">
+          <input type="text" placeholder="Type anything" id="todo" name="todo" />
+          <button>
+            <i class="fas fa-plus"></i>
+            Add
+          </button>
+        </form>
+      </div>
+    </main>
 
-			<form id="form">
-				<input type="text" placeholder="Type anything" id="todo" name="todo">
+    <footer>
+      <p>
+        Developed by
+        <strong>
+          <a href="https://github.com/christyanbrayan" target="_blank"> Christyan Brayan </a>
+        </strong>
+      </p>
+    </footer>
 
-				<button>
-					<i class="fas fa-plus"></i>
-					Add
-				</button>
-			</form>
-		</div>
-	</main>
-
-	<footer>
-		<p>
-			Developed by
-			<strong>
-				<a href="https://github.com/christyanbrayan" target="_blank">
-					Christyan Brayan
-				</a>
-			</strong>
-		</p>
-	</footer>
-
-	<script src="script.js"></script>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
