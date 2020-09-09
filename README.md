@@ -1,3 +1,4 @@
+![](print.png)
 # Simple To-Do JS Application
 ## Based on the simple project developed on [JS Starter Course](https://app.rocketseat.com.br/node/curso-java-script) of [Rocketseat](https://rocketseat.com.br/), taught by [Diego Fernandes](https://github.com/diego3g)
 - HTML5;
