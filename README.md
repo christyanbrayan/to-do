@@ -1,10 +1,11 @@
 # Simple To-Do JS Application
-## Based on the simple project developed on [JS Starter Course](https://app.rocketseat.com.br/node/curso-java-script) of [Rocketseat](https://rocketseat.com.br/)
+## Based on the simple project developed on [JS Starter Course](https://app.rocketseat.com.br/node/curso-java-script) of [Rocketseat](https://rocketseat.com.br/), taught by [Diego Fernandes](https://github.com/diego3g)
 - HTML5;
 - CSS3;
 - JavaScript;
 - CSS reset by [Normalize.css](https://necolas.github.io/normalize.css/);
-- Fonts by [Font Awesome](https://fontawesome.com/);
+- Icons by [Font Awesome](https://fontawesome.com/);
+- Fonts by [Google Fonts](https://fonts.google.com)
 - Hospeded with [GitHub Pages](https://pages.github.com/);
 
 The design was based on [Rocketseat Website](https://app.rocketseat.com.br)
