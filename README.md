@@ -1,4 +1,4 @@
-![Print To-Do](print.png "To-Do")
+[![Print To-Do](print.png "To-Do")](https://christyanbrayan.github.io/to-do)
 # Simple To-Do JS Application
 ## Based on the simple project developed on [JS Starter Course](https://app.rocketseat.com.br/node/curso-java-script) of [Rocketseat](https://rocketseat.com.br/), taught by [Diego Fernandes](https://github.com/diego3g)
 - HTML5;
@@ -10,6 +10,8 @@
 - Hospeded with [GitHub Pages](https://pages.github.com/);
 
 The design was based on [Rocketseat Website](https://app.rocketseat.com.br)
+
+Acess [here](https://christyanbrayan.github.io/to-do)!
 
 ### Contributors
 - [@flubyGit](https://github.com/flubyGit)
