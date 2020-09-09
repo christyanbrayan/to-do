@@ -1,4 +1,4 @@
-![](print.png)
+![Print To-Do](print.png "To-Do")
 # Simple To-Do JS Application
 ## Based on the simple project developed on [JS Starter Course](https://app.rocketseat.com.br/node/curso-java-script) of [Rocketseat](https://rocketseat.com.br/), taught by [Diego Fernandes](https://github.com/diego3g)
 - HTML5;
@@ -15,6 +15,8 @@ The design was based on [Rocketseat Website](https://app.rocketseat.com.br)
 - [@flubyGit](https://github.com/flubyGit)
 - [@lucianesantcs](https://github.com/lucianesantcs)
 - [@SiqueiraDev](https://github.com/siqueiradev)
+
+Licensed by [MIT](LICENSE)
 
 Also want contribute with anything? Open an [issue](https://github.com/christyanbrayan/to-do/issues/new) or [PR](https://github.com/christyanbrayan/to-do/pulls)!
 
